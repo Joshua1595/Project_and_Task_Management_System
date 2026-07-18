@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-slate-150: #eef2f6;
+  --color-slate-250: #cbd5e1;
+  --color-indigo-150: #e0e7ff;
+  --color-red-150: #fee2e2;
+  --color-amber-150: #fef3c7;
+  --color-emerald-150: #d1fae5;
+  --color-rose-150: #ffe4e6;
+}
+
+/* PREMIUM HIGH-CONTRAST PURE BLACK & WHITE DARK THEME */
+.theme-black,
+.theme-black body {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+.theme-black .bg-white,
+.theme-black .bg-slate-50,
+.theme-black .bg-slate-50\/20,
+.theme-black .bg-slate-50\/50,
+.theme-black .bg-slate-100 {
+  background-color: #0a0a0a !important;
+  color: #f5f5f5 !important;
+}
+
+.theme-black .border,
+.theme-black .border-slate-150,
+.theme-black .border-slate-200,
+.theme-black .border-r,
+.theme-black .border-b,
+.theme-black .border-t,
+.theme-black .border-l {
+  border-color: #262626 !important;
+}
+
+.theme-black .text-slate-800,
+.theme-black .text-slate-900,
+.theme-black .text-slate-950,
+.theme-black .text-slate-700,
+.theme-black .text-slate-750,
+.theme-black h1,
+.theme-black h2,
+.theme-black h3,
+.theme-black h4,
+.theme-black p,
+.theme-black label {
+  color: #f5f5f5 !important;
+}
+
+.theme-black .text-slate-400,
+.theme-black .text-slate-450,
+.theme-black .text-slate-500 {
+  color: #a3a3a3 !important;
+}
+
+.theme-black input,
+.theme-black select,
+.theme-black textarea {
+  background-color: #121212 !important;
+  border-color: #262626 !important;
+  color: #ffffff !important;
+}
+
+.theme-black .shadow-xs,
+.theme-black .shadow-sm,
+.theme-black .shadow-2xs,
+.theme-black .shadow-2xl {
+  box-shadow: none !important;
+}
+
+.theme-black .fixed {
+  background-color: rgba(0, 0, 0, 0.85) !important;
+}
+
+.theme-black .fixed .bg-white {
+  background-color: #0d0d0d !important;
+  border-color: #262626 !important;
+}

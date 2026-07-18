@@ -1,0 +1,9 @@
+# Note: This full-stack container runs in a Node.js/TypeScript environment.
+# All actual dependencies are managed via `package.json` in the root folder.
+# This file is provided for completeness and to align with Python folder expectations.
+fastapi==0.110.0
+pydantic==2.6.4
+sqlalchemy==2.0.28
+uvicorn==0.28.0
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4

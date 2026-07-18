@@ -1,0 +1,6 @@
+{
+  "name": "Smart Task & Project Management System",
+  "description": "A web application that enables teams to manage projects, divide them into tasks, assign them to employees, and monitor progress using role-based dashboards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
