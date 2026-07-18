@@ -114,17 +114,6 @@ export default function LandingPage({ onNavigateToLogin, onNavigateToSignup }: L
         <section className="relative flex-1 flex items-center pt-12 pb-20 md:py-24 z-10">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
             <div className="text-center max-w-3xl mx-auto space-y-6">
-              
-              {/* Tag / Badge */}
-              <motion.div 
-                initial={{ opacity: 0, y: 15 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5 }}
-                className="inline-flex items-center space-x-1.5 bg-white/10 border border-white/20 backdrop-blur-xs px-3.5 py-1.5 rounded-full text-xs font-bold text-indigo-300 uppercase tracking-wider"
-              >
-                <Sparkles className="h-3.5 w-3.5 text-indigo-400 animate-pulse" />
-                <span>Version 2.0 has officially launched</span>
-              </motion.div>
 
               {/* Headline */}
               <motion.h1 
